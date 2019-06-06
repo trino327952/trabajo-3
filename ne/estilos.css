@@ -4,7 +4,7 @@
 	margin-left: 20px;
 	margin-top: 25px;
  padding:auto;
- border :2px solid orange;
+ border :2px solid black;
  background-color: #DDEF95;
  color:white;
 }
@@ -12,9 +12,20 @@
 	margin-top: 50px;
 	 border :2px solid black;
 }
+.m2{
+	 margin-right: 20px;
+	margin-left: 20px;
+ padding-bottom: 10px;
+ border :2px solid black;
+ background-color: #868E9B;
+ margin-top: 1px;
+}
 #claselista li
  	{
   display: inline-block;
   padding: 5px
 
+ 	}
+ #claselista li:hover{
+  background-color: red;
  	}
